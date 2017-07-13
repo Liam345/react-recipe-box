@@ -1,0 +1,42 @@
+body{
+  
+}
+.App {
+  text-align: center;
+  background-color: #2c190a;
+}
+.AppContainer{
+  display:flex;
+  
+}
+// .Left-Area{
+// position:
+// }
+.Right-Area {
+  width: calc(100%-200px);
+  margin-left:200px;
+  flex-grow: 1;
+  background-color: #2c190a;
+  }
+
+.formLabel{
+      
+      font-size: 30px;
+      background-color:blanchedalmond;
+  };
+.formInput{
+  width:500px;
+  height:40px;
+  font-size:18px;
+}
+.textArea{
+  width:500px;
+  height:200px;
+  font-size:18px;
+}
+
+table{
+  
+  font-size:30px;
+  font-family: 'Catamaran', sans-serif
+}
