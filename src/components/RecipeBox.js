@@ -46,6 +46,7 @@ class RecipeBox extends Component{
       const editedRecipe = {key:this.props.recipe.key,name:this.state.name,image:this.state.image,ingredients:this.state.ing};
       console.log(editedRecipe);
       this.props.onRecipeEdit(editedRecipe);
+      this.handleClose();
 
     }
 

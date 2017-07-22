@@ -1,11 +1,13 @@
 {
   "name": "react-recipe-box",
   "version": "0.1.0",
+  "homepage": "https://liam345.github.io/react-recipe-box",
   "private": true,
   "devDependencies": {
     "react-scripts": "1.0.10"
   },
   "dependencies": {
+    "gh-pages": "^1.0.0",
     "node-sass-chokidar": "0.0.3",
     "npm-run-all": "^4.0.2",
     "react": "^15.6.1",
@@ -19,6 +21,8 @@
     "start": "npm-run-all -p watch-css start-js",
     "build": "npm run build-css && react-scripts build",
     "test": "react-scripts test --env=jsdom",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "eject": "react-scripts eject"
   }
 }
